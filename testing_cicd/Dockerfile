@@ -11,7 +11,7 @@ ARG FLUTTER_VERSION=3.10.5
 ARG APP=/app/
 
 #clone flutter
-RUN git clone https://github.com/flutter/flutter.git $FLUTTER_SDK
+RUN git clone https://github.com/ragu08/Andorid_cicd.git $FLUTTER_SDK
 # change dir to current flutter folder and make a checkout to the specific version
 RUN cd $FLUTTER_SDK && git fetch && git checkout $FLUTTER_VERSION
 
