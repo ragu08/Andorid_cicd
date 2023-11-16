@@ -56,3 +56,9 @@ android {
 flutter {
     source '../..'
 }
+
+firebaseAppDistribution {
+  releaseNotes = "Test Notes"
+  serviceCredentialsFile = "$rootDir/service-credentials-sample.json."
+  groups=”test”
+ }
