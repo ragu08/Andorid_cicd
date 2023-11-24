@@ -30,4 +30,9 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+  
+    <version
+        android:versionCode="$(BUILD_NUMBER)"
+        android:versionName="$(SEM_VERSION)" />
+
 </manifest>
